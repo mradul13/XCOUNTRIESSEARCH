@@ -1,0 +1,16 @@
+.wrapper {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 5px;
+    padding: 5px;
+}
+
+.loader {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}

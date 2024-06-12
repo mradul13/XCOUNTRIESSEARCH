@@ -44,7 +44,7 @@ const CardGrid = ()=>{
     return (
         <>
             <Toaster position="bottom-right" reverseOrder={false} />
-            {countries.length? (
+            {countries && countries.length? (
                 <>
                 <Search data={countries} placeholder={'Search for countries'} 
                 onInputChange={handleSearchChange}
